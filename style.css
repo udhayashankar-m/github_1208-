@@ -193,6 +193,13 @@ h1 {
     max-width: 70px;
     margin: 5px 0 -12px 0;
 }
+
+.cards .card:hover{
+    border:1px solid white;
+    box-shadow:0 0 3px;
+    flex:1.5;
+}
+
 @media (max-width: 1400px) {
     .cards {
         flex-wrap: wrap;
